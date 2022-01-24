@@ -1,0 +1,78 @@
+body, #wrapper, #header, .logo {
+  width: 100%;
+}
+
+body, #wrapper-sucess, #wrapper-failure {
+  height: 100vh;
+}
+
+#wrapper-sucess {
+  background-color: #0060AE;
+}
+
+#wrapper-failure {
+  background-color: #EC1C24;
+}
+
+.logo {
+  padding: 53px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.logo img {
+  width: 253.61px;
+}
+
+#main {
+  padding: 100px 60px;
+}
+
+.icon {
+  padding: 0 0 50px;
+  text-align: center;
+}
+
+.icon i {
+  font-size: 60px;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  color: #fff;
+  font-size: 64px;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.content p {
+  font-size: 28px;
+  color: #fff;
+}
+
+@media (max-width: 736px) {
+  .logo img {
+    width: 153.61px;
+  }
+  #main {
+    padding: 50px 15px;
+  }
+  .title h1 {
+    font-size: 24px;
+  }
+  .content {
+    width: 100%;
+  }
+  .content p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="font-awesome-pro-master/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/ekyc/ekyc.css">
+  <link rel="stylesheet" href="css/ekyc/select-tag.css">
+  <link rel="stylesheet" href="css/ekyc/picture-box.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="globe-img">
+      <img src="images/globe-asia-solid.svg" alt="">
+    </div>
+    <div class="logo">
+      <img src="images/mobifone-white.svg" alt="">
+    </div>
+    <div class="body-content">
+      <div class="title">
+        <h1>THÔNG TIN ĐĂNG KÍ</h1>
+      </div>
+      <div class="form-box">
+        <div class="input-form">
+          <p>Họ và tên đệm</p>
+          <input type="text" name="" value="">
+        </div>
+        <div class="input-form">
+          <p>Tên</p>
+          <input type="text" name="" value="">
+        </div>
+        <div class="input-form">
+          <p>Ngày sinh</p>
+          <input type="date" name="" value="">
+        </div>
+        <div class="input-form">
+          <p>Giới tính</p>
+          <div class="input-6 custom-select select">
+            <select>
+              <option value="0">-- Chọn giới tính --</option>
+              <option value="">Nam</option>
+              <option value="">Nữ</option>
+              <option value="">Giới tính khác</option>
+            </select>
+          </div>
+        </div>
+        <div class="input-form">
+          <p>Loại giấy tờ</p>
+          <div class="input-6 custom-select select">
+            <select>
+              <option value="0">-- Chọn loại giấy tờ --</option>
+              <option value="">Chứng minh nhân dân</option>
+              <option value="">Căn cước công dân</option>
+            </select>
+          </div>
+        </div>
+        <div class="input-form">
+          <p>Ngày cấp</p>
+          <input type="date" name="" value="">
+        </div>
+      </div>
+      <div class="picture-box" id="page">
+
+        <!-- Our File Inputs -->
+        <div class="wrap-custom-file">
+          <p>Ảnh CMND mặt trước</p>
+          <input type="file" name="image1" id="image1" accept=".gif, .jpg, .png" />
+          <label for="image1">
+            <span>Click vào đây để chọn ảnh</span>
+            <i class="fal fa-cloud-upload-alt"></i>
+          </label>
+        </div>
+
+        <div class="wrap-custom-file">
+          <p>Ảnh CMND mặt sau</p>
+          <input type="file" name="image2" id="image2" accept=".gif, .jpg, .png" />
+          <label for="image2">
+            <span>Click vào đây để chọn ảnh</span>
+            <i class="fal fa-cloud-upload-alt"></i>
+          </label>
+        </div>
+
+        <div class="wrap-custom-file">
+          <p>Ảnh chân dung</p>
+          <input type="file" name="image3" id="image3" accept=".gif, .jpg, .png" />
+          <label for="image3">
+            <span>Click vào đây để chọn ảnh</span>
+            <i class="fal fa-cloud-upload-alt"></i>
+          </label>
+        </div>
+
+        <!-- End Page Wrap -->
+      </div>
+      <form class="confirm" action="success.html" method="post">
+        <input type="submit" name="" value="Xác nhận">
+      </form>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/select-tag.js" charset="utf-8"></script>
+  <script src="js/picture-box.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+body, #wrapper {
+  width: 100%;
+}
+
+.globe-img {
+  width: 100%;
+  height: 100vh;
+  background-color: #0060AE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: -1;
+}
+
+.globe-img img {
+  width: 466px;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+  padding: 53px 0;
+}
+
+.logo img {
+  width: 253.61px;
+}
+
+.body-content {
+  padding: 100px 60px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.title h1 {
+  font-size: 64px;
+}
+
+.form-box {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.input-form {
+  text-align: left;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-form p {
+  font-size: 28px;
+  color: #fff;
+  width: 300px;
+}
+
+.input-form input {
+  width: 300px;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 12px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #fff;
+  position: relative;
+}
+
+.input-form input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.input-form input[type="date"] {
+  background: url('../../images/calendar-alt-regular.svg');
+  background-repeat: no-repeat;
+  background-position: 95%;
+  background-size: 20px;
+}
+
+.picture-box {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.confirm {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.confirm input {
+  padding: 15px 20px;
+  background: #FFFFFF;
+  border: 3px solid #0060AE;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-size: 20px;
+  color: #0060AE;
+  font-family: 'Nunito Sans', sans-serif;
+  cursor: pointer;
+}
+
+@media (max-width: 920px) {
+  .body-content {
+    padding: 100px 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .form-box {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .globe-img img {
+    width: 275px;
+  }
+
+  .logo img {
+    width: 153.61px;
+  }
+
+  .title h1 {
+    font-size: 24px;
+  }
+
+  .input-form p {
+    font-size: 18px;
+    width: 220px;
+  }
+
+  .input-form input {
+    width: 220px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
