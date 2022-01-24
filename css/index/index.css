@@ -202,7 +202,7 @@ body, #wrapper {
 
   .input-form form input:last-child {
     width: 126.64px;
-    padding: 10px;
+    padding: 10px 10px;
     background: #FFFFFF;
     border: 3px solid #0060AE;
     box-sizing: border-box;
