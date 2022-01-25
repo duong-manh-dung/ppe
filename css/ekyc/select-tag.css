@@ -85,7 +85,7 @@
   }
 
   .select-selected:after {
-    top: 23px;
+    top: 20px;
     right: 20px;
   }
 }

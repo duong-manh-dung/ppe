@@ -179,18 +179,23 @@ body, #wrapper, #header, .logo {
 
 form {
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
-form input:last-child {
-  padding: 15px 20px;
-  background: #FFFFFF;
-  border: 3px solid #0060AE;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+form .btn:last-child {
+  margin-left: auto;
+  margin-right: auto;
+  width: 128.69px;
   border-radius: 10px;
-  font-size: 20px;
-  color: #0060AE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: 'Nunito Sans', sans-serif;
+  color: #0060AE;
+  font-size: 20px;
+  background: #fff;
+  padding: 15px 20px;
+  border: solid #0060AE 3px;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -330,6 +335,7 @@ form input:last-child {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
     margin-bottom: 30px;
     padding-bottom: 30px;
     grid-row: 2;
@@ -337,16 +343,9 @@ form input:last-child {
     border-bottom: 2px solid #fff;
   }
 
-  form input:last-child {
-    width: 126.64px;
-    height: auto;
-    padding: 10px;
-    background: #FFFFFF;
-    border: 3px solid #0060AE;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    border-radius: 10px;
+  form .btn:last-child {
+    width: 103.89px;
     font-size: 14px;
-    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
   }
 }
