@@ -186,7 +186,8 @@ form {
 form .btn:last-child {
   margin-left: auto;
   margin-right: auto;
-  width: 128.69px;
+  width: 140px;
+  text-align: center;
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: 'Nunito Sans', sans-serif;
@@ -344,7 +345,7 @@ form .btn:last-child {
   }
 
   form .btn:last-child {
-    width: 103.89px;
+    width: 110px;
     font-size: 14px;
     padding: 10px 20px 10px 20px;
   }
