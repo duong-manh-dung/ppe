@@ -38,7 +38,7 @@ body, #wrapper {
 }
 
 .welcome {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -75,12 +75,12 @@ body, #wrapper {
 }
 
 .phone-icon i {
-  font-size: 230px;
+  font-size: 280px;
   color: #fff;
 }
 
 .input-form p:first-child {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 40px;
@@ -111,7 +111,7 @@ body, #wrapper {
   color: #fff;
 }
 
-.input-form form input:last-child {
+.input-form form button:last-child {
   padding: 15px 20px;
   background: #FFFFFF;
   border: 3px solid #0060AE;
@@ -200,7 +200,7 @@ body, #wrapper {
     margin-right: 0;
   }
 
-  .input-form form input:last-child {
+  .input-form form button:last-child {
     width: 126.64px;
     padding: 10px 10px;
     background: #FFFFFF;
