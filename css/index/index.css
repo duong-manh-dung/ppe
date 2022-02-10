@@ -34,13 +34,15 @@ body, #wrapper {
   position: relative;
   z-index: 2;
   top: 151.94px;
-  padding: 80px 30px;
+  padding: 80px 0 0;
 }
 
 .welcome {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  padding-left: 145px;
+  padding-right: 145px;
 }
 
 .welcome h1 {
@@ -56,14 +58,15 @@ body, #wrapper {
 .welcome hr {
   margin: 50px 0;
   border: none;
-  height: 3px;
+  border-radius: 3px;
+  height: 2px;
   width: 100%;
   background-color: #fff;
 }
 
 .form-box {
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 80px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -160,7 +163,12 @@ body, #wrapper {
   }
 
   .body-content {
-    padding: 80px 5px;
+    padding: 80px 0 0;
+  }
+
+  .welcome {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .welcome h1 {
