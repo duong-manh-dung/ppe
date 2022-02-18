@@ -3,7 +3,7 @@ body, #wrapper, #header, .logo {
 }
 
 body, #wrapper-sucess, #wrapper-failure {
-  height: 100vh;
+  height: 100%;
 }
 
 #wrapper-sucess {
